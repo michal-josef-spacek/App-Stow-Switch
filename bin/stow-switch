@@ -1,0 +1,87 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+
+use App::Stow::Switch;
+
+our $VERSION = 0.01;
+
+# Run.
+exit App::Stow::Switch->new->run;
+
+# Print version.
+sub VERSION_MESSAGE {
+	print $VERSION."\n";
+	exit 0;
+}
+
+__END__
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+stow-switch - Tool to switch stow dist for command.
+
+=head1 SYNOPSIS
+
+ stow-switch [-h] [--version] command
+
+=head1 ARGUMENTS
+
+=over 8
+
+=item * C<-h>
+
+Print help.
+
+=item * C<--version>
+
+Print version of script.
+
+TODO
+
+=back
+
+=head1 EXAMPLE1
+
+ stow-switch -h
+
+=head1 EXAMPLE2
+
+ stow-switch TODO
+
+=head1 SEE ALSO
+
+=over
+
+=item L<stow-check>
+
+Tool to check for which stow dist command is.
+
+=back
+
+=head1 REPOSITORY
+
+L<https://github.com/michal-josef-spacek/App-Stow-Switch>
+
+=head1 AUTHOR
+
+Michal Josef Špaček L<mailto:skim@cpan.org>
+
+L<http://skim.cz>
+
+=head1 LICENSE AND COPYRIGHT
+
+© 2021-2024 Michal Josef Špaček
+
+BSD 2-Clause License
+
+=head1 VERSION
+
+0.01
+
+=cut

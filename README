@@ -1,0 +1,43 @@
+NAME
+    stow-switch - Tool to switch stow dist for command.
+
+SYNOPSIS
+     stow-switch [-h] [--version] command
+
+ARGUMENTS
+    *       "-h"
+
+            Print help.
+
+    *       "--version"
+
+            Print version of script.
+
+            TODO
+
+EXAMPLE1
+     stow-switch -h
+
+EXAMPLE2
+     stow-switch TODO
+
+SEE ALSO
+    stow-check
+        Tool to check for which stow dist command is.
+
+REPOSITORY
+    <https://github.com/michal-josef-spacek/App-Stow-Switch>
+
+AUTHOR
+    Michal Josef Špaček <mailto:skim@cpan.org>
+
+    <http://skim.cz>
+
+LICENSE AND COPYRIGHT
+    © 2021-2024 Michal Josef Špaček
+
+    BSD 2-Clause License
+
+VERSION
+    0.01
+
