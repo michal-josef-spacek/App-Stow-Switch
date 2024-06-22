@@ -1,5 +1,5 @@
 ---
-abstract: 'Distribution for stow-switch script.'
+abstract: 'Tool to switch stow dist for command.'
 author:
   - 'Michal Josef Spacek <skim@cpan.org>'
 build_requires:

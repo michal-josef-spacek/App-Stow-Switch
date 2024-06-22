@@ -5,7 +5,7 @@ use warnings;
 use inc::Module::Install;
 
 # Definition.
-abstract 'Distribution for stow-switch script.';
+abstract 'Tool to switch stow dist for command.';
 author 'Michal Josef Spacek <skim@cpan.org>';
 author_requires 'English' => 0;
 author_requires 'File::Object' => 0.05;
